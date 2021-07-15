@@ -1,15 +1,19 @@
 import React from 'react';
-
-import HeaderAnt from './HeaderAnt';
+import HeaderTop from './components/common/HeaderTop';
+// import HeaderNav from './components/common/HeaderNav';
+// import HeaderAnt from './HeaderAnt';
 import './App.css';
+import Layout from 'antd/lib/layout/layout';
 
 
 const App = () => (
-  <div className="App">
-    {/* <Button type="primary">Button</Button> */}
-    
-  <HeaderAnt/>
-  </div>
+  
+    <Layout className="main-layout">
+       <HeaderTop/>
+  {/* <HeaderAnt/> */}
+    </Layout>
+   
+  
 );
 
 export default App;

@@ -5,7 +5,7 @@ import "./index.css";
 import { Layout, Menu } from "antd";
 import { Input } from "antd";
 import ContentMiddle from "./Content";
-import { Avatar, Image } from 'antd';
+import { Avatar } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 
 const { Header } = Layout;
